@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+   text-decoration: none;
+   list-style: none;
+   text-transform: uppercase;
+}
+body{
+    color: black;
+    background-color: black;
+}
+
+.header-container{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    padding-left: 65px;
+
+}
+.header-lists{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    padding-top: 20px;
+
+}
+
+
+.header-lists li{
+    padding: 10px;
+}
+.header-lists li a:hover{
+    text-decoration: underline;
+    color: #fff;
+
+}
+.shop{
+    padding-top: 20px;
+}
+
+.header-lists li a,.shop{
+    color: #fff;
+    font: 14px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.bar-button{
+    height: 40px;
+}
+.shop{
+    margin-left:90px;
+}
+
+
+.section-1-img{
+    width: 100%;
+
+}
+.section-1-content{
+    position: absolute;
+    left: 70px;
+    top: 400px;
+
+}
+.section-1-title{
+    color: #fff;
+    font: 20px/38px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.section-1-heading{
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 2px #555;
+}
+
+.section-1-button{
+    width: 170px;
+    height: 55px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0%;
+    border: 3px solid #fff;
+    margin-top: 30px;
+
+}
+.section-1-button:hover{
+    color: black;
+    background-color: #fff;
+
+}
+
+
+/*section-2*/
+
+.section-2-img{
+    width: 100%;
+
+}
+.section-2-content{
+    position: absolute;
+  top: 1000px;
+  left:70px ;
+
+}
+.section-2-title{
+    color: #fff;
+    font: 20px/38px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.section-2-heading{
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 2px #555;
+}
+
+.section-2-button{
+    width: 170px;
+    height: 55px;
+    color: #fff;
+   background-color:transparent;
+    border-radius: 0%;
+    border: 3px solid #fff;
+    margin-top: 30px;
+    
+
+}
+.section-2-button:hover{
+    color: black;
+    background-color: #fff;
+
+}
+/*section-3*/
+
+
+
+
+.section-3-img{
+    width: 100%;
+   border-style: none ;
+
+}
+.section-3-content{
+    position: absolute;
+  top: 1600px;
+  left:70px ;
+
+}
+.section-3-title{
+    color: #fff;
+    font: 20px/38px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.section-3-heading{
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 2px #555;
+}
+
+.section-3-button{
+    width: 170px;
+    height: 55px;
+    color: #fff;
+   background-color:transparent;
+    border-radius: 0%;
+    border: 3px solid #fff;
+    margin-top: 30px;
+    
+
+}
+.section-3-button:hover{
+    color: black;
+    background-color: #fff;
+
+}
+
+
+
+/*section-4*/
+
+
+
+
+.section-4-img{
+    width: 100%;
+    border-color: transparent;
+}
+.section-4-content{
+    position: absolute;
+  top: 2110px;
+  left:70px ;
+
+}
+.section-4-title{
+    color: #fff;
+    font: 20px/38px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.section-4-heading{
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 2px #555;
+}
+
+.section-4-button{
+    width: 170px;
+    height: 55px;
+    color: #fff;
+   background-color:transparent;
+    border-radius: 0%;
+    border: 3px solid #fff;
+    margin-top: 30px;
+    
+
+}
+.section-4-button:hover{
+    color: black;
+    background-color: #fff;
+
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+}
+
+.footer-lists{
+    display: flex;
+
+}
+.footer-list-1{
+    font-size: 12px;
+    font-family: D-DIN-Regular;
+line-height: 1.6;
+ color: #979797;;
+}
+.footer-lists li{
+    padding: 10px;
+}
+
+.footer-lists li a{
+    font-weight: 400;
+    color: #fff;
+    font: 12px/24px D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+.footer-lists li a:hover{
+
+color: #979797;
+}
